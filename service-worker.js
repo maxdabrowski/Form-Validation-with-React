@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Form-Validation-with-React-/precache-manifest.b2f87bb40b2379fde7f4f338ef2af7fd.js"
+  "/Form-Validation-with-React/precache-manifest.1803a92d40c92b799a7d02df3b9eec56.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Form-Validation-with-React-/index.html", {
+workbox.routing.registerNavigationRoute("/Form-Validation-with-React/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
